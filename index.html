@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrivenEats</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <div class="topo-invisivel"></div>
+    <div class="topo">
+        <h1>DrivenEats</h1>
+        <h2>Sua comida em 6 minutos</h2>
+    </div>
+    
+    <div class="primeira-fileira">
+        <p>Primeiro, o seu prato</p>
+
+        <div class="pratos-opcoes">
+            <div class="opcao1" onclick="selecionarPrato(this)">
+                <img src="./imagens/frango_yin_yang.png"/>
+                <h1>Frango Yin Yang</h1>
+                <h2>Um pouco de batata, um pouco de salada</h2>
+                <h3>R$ 14,90</h3>
+            </div>
+
+            <div class="opcao2" onclick="selecionarPrato(this)">
+                <img src="./imagens/frango_yin_yang.png"/>
+                <h1>Frango Yin Yang</h1>
+                <h2>Um pouco de batata, um pouco de salada</h2>
+                <h3>R$ 14,90</h3>
+                
+            </div>
+
+            <div class="opcao3" onclick="selecionarPrato(this)">
+                <img src="./imagens/frango_yin_yang.png"/>
+                <h1>Frango Yin Yang</h1>
+                <h2>Um pouco de batata, um pouco de salada</h2>
+                <h3>R$ 14,90</h3>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="segunda-fileira">
+        <p>Agora, sua bebida</p>
+
+        <div class="bebidas-opcoes">
+            <div class="opcao1" onclick="selecionarBebida(this)">
+                <img src="./imagens/coquinha_gelada 1.png"/>
+                <h1>Coquinha gelada</h1>
+                <h2>Lata 350ml</h2>
+                <h3>R$ 4,90</h3>
+            </div>
+            <div class="opcao2" onclick="selecionarBebida(this)">
+                <img src="./imagens/coquinha_gelada 1.png"/>
+                <h1>Coquinha gelada</h1>
+                <h2>Lata 350ml</h2>
+                <h3>R$ 4,90</h3>
+            </div>
+            <div class="opcao3" onclick="selecionarBebida(this)">
+                <img src="./imagens/coquinha_gelada 1.png"/>
+                <h1>Coquinha gelada</h1>
+                <h2>Lata 350ml</h2>
+                <h3>R$ 4,90</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="terceira-fileira">
+        <p>Por fim, sua sobremesa</p>
+
+        <div class="sobremesas-opcoes">
+            <div class="opcao1" onclick="selecionarSobremesa(this)">
+                <img src="./imagens/pudim 1.png"/>
+                <h1>Pudim</h1>
+                <h2>Apenas pudim</h2>
+                <h3>R$ 7,90</h3>
+            </div>
+            <div class="opcao2" onclick="selecionarSobremesa(this)">
+                <img src="./imagens/pudim 1.png"/>
+                <h1>Pudim</h1>
+                <h2>Apenas pudim</h2>
+                <h3>R$ 7,90</h3>
+            </div>
+            <div class="opcao3" onclick="selecionarSobremesa(this)">
+                <img src="./imagens/pudim 1.png"/>
+                <h1>Pudim</h1>
+                <h2>Apenas pudim</h2>
+                <h3>R$ 7,90</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-inv"></div>
+    <div class="footer">
+        <div class="botao-finalizar" onclick="finalizarPedido(this)">Selecione os 3 itens
+            para fechar o pedido</div>
+    </div>
+  
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
